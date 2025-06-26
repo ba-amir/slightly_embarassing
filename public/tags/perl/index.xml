@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perl on Slightly Embarassing</title>
+    <link>http://localhost:1313/tags/perl/</link>
+    <description>Recent content in Perl on Slightly Embarassing</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 18 May 2025 22:15:34 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Perl</title>
+      <link>http://localhost:1313/posts/why-perl/</link>
+      <pubDate>Sun, 18 May 2025 22:15:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-perl/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Perl is a filthy little gremling of a language, and that&amp;rsquo;s exactly why I love it so much.&#xA;Perl doesn&amp;rsquo;t care about conforming or being elegant. No, Perl&#xA;relishes in being clever, dastardly and much more fun to write in than any other language out there.&#xA;It&amp;rsquo;s no wonder that Perl&amp;rsquo;s motto is&#xA;There is More Than One Way To DO It. No matter what you&amp;rsquo;re doing or why you&amp;rsquo;re doing&#xA;it Perl will always give you options. Some good, some bad but Perl always allows you,&#xA;the programmer, to pick your poison.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

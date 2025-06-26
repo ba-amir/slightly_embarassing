@@ -1,0 +1,4 @@
+baseURL = 'https://ba-amir.github.io'
+languageCode = 'en-gb'
+title = 'Slightly Embarassing'
+theme = 'ananke'
