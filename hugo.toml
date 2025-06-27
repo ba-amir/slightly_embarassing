@@ -4,6 +4,8 @@ title = 'Slightly Embarassing'
 theme = "archie"
 pagination.pagerSize = 5
 
+[params.meta]
+    favicon = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
