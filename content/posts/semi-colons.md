@@ -29,26 +29,26 @@ well thought-out thesis on why you prefer something to another but I'm sure we c
 than semicolons, especially when comparing languages as disparate as C and Python. But ignoring 
 the inanity of the above comment, it does beg a somewhat interesting question. 
 What's with all the semicolons? Why do some languages need them and others don't? It'll be easier 
-to answer the questions after after looking at what the semicolons actually do. 
+to answer the questions after looking at what semicolons actually do. 
 
 
 ##  Statement Terminators
 
-Programs written in imperative programming languages can be considered as essentially a list 
-of commands to be executed by the computer. But how does the compiler or interpreter or whatever's 
-translating the code to the computer know where one command ends and another begins? 
+Programs written in imperative programming languages are pretty much a list of things we want the computer to do.
+But how does the compiler or interpreter or whatever is 
+translating the code know where one command ends and another begins? 
 
 In spoken languages this is pretty simple, just wait until the speaker finishes talking. For writing, 
 you'd look out for a puntuation mark- usually a fullstop or an exclamation mark. Programming languages
 do the same thing essentially, they use a textual marker to indicate the end of a statement. Some languages use 
-newlines (Python) and others use semicolons (C and Javascript). The last sentence wasn't a typo, Javascript 
-actually automatically inserts semicolons after each statement wherever they're missing before interpreting 
-the program. 
+newlines (Python) and others use semicolons (C and Javascript). If you use Javascript, the last sentence wasn't a typo, Javascript 
+actually automatically inserts semicolons after each statement wherever they're missing before the 
+program is interpreted
 
 So then, what's the difference? why choose one over the other? Well, like most things pertaining to 
 language design it's really a matter of preference. Using semi-colons allows the programmer more flexibility 
 in how they structure their code. For example, the following two C snippets are completely identical 
-to the C compiler even if one will earn you a talking to.  
+to the C compiler even if one would probably earn you a scolding.  
 
 ```C 
 int main() {
@@ -66,7 +66,7 @@ While this freedom may allow experienced programmers to format their code howeve
 to them, it can also lead to harder to understand code, especially in codebases maintained by multiple 
 people with different coding styles (though using formatting tools helps a bit). 
 Python sidesteps this issue entirely by forcing each statement on a separate line, preferring 
-uniformity to flexibility in true Python fashion.
+uniformity to flexibility.
 
 
 ## Statement Separators
@@ -74,7 +74,7 @@ Although we've answered our leading questions we're not done yet. Now that we've
 that imperative programs are essentially list of commands. It's interesting to note that not 
 all languages use semicolons as statement terminators, some languages like Perl for example use 
 semicolons as **statement separators**. That is, the semicolon is only really necessary when 
-statement follows another. 
+one statement follows another. 
 
 
 ```perl 
@@ -99,11 +99,8 @@ Not all languages are imperative.  Some languages, rather than issuing
 commands to the computer, describe what the solution should be. As a result, 
 these programs in these languages often have very few statements and are mostly 
 made of expressions. Expressions always evaluate to a single value, these values 
-can then be combined using familiar operators and functions. So semicolons don't find 
-as much use in terminating statements so they're used in some interesting ways.
-
-This section will be a brief survey 
-of these languages: OCaml, LISP and Rust. 
+can then be combined using operators and functions. So semicolons aren't always
+used in the exact same ways though they do still serve similar functions. 
 
 
 ### OCaml

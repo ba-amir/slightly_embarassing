@@ -1,7 +1,8 @@
 baseURL = 'https://ba-amir.github.io'
 languageCode = 'en-gb'
 title = 'Slightly Embarassing'
-theme = 'ananke'
+theme = "archie"
+pagination.pagerSize = 5
 
 [caches]
   [caches.images]
